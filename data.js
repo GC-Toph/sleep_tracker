@@ -82,7 +82,7 @@ window.SLEEP_TRACKER_DATA = {
       min: 0,
       max: 180,
       step: 5,
-      placeholder: "0",
+      placeholder: "",
       width: "58px"
     },
     {
@@ -151,7 +151,7 @@ window.SLEEP_TRACKER_DATA = {
       min: 0,
       max: 20,
       step: 1,
-      placeholder: "0",
+      placeholder: "",
       width: "54px"
     }
   ],
@@ -174,8 +174,8 @@ window.SLEEP_TRACKER_DATA = {
       title: "睡眠环境",
       type: "bullets",
       items: [
-        "黑暗 / 尽可能低亮度",
-        "凉爽，通常前4小时约 18–24°C",
+        "尽可能黑暗，夜间照明使用落地灯较低位置的暖色暗光源，避免头顶强光",
+        "凉爽，通常睡眠的前半段约 18–24°C，后半段可略微升温",
         "手机不放床边",
         "低任务感、低刺激",
         "床尽量简单, 只与睡眠关联"
