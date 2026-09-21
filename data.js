@@ -105,8 +105,16 @@ window.SLEEP_TRACKER_DATA = {
       width: "58px"
     },
     {
+      id: "avoidFood",
+      label: "20:30后避免进食",
+      sublabel: "减少夜间消化负荷",
+      inputType: "checkbox",
+      width: "78px",
+      printMark: "✓"
+    },
+    {
       id: "avoidLight",
-      label: "20:30后避免任何光线",
+      label: "20:30后避免光线",
       sublabel: "进入昏暗环境",
       inputType: "checkbox",
       width: "78px",
