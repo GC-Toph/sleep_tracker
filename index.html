@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sleep Protocol Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <header id="tracker-header"></header>
+    <section id="tracker-table-section"></section>
+    <section id="tracker-footer-panels"></section>
+  </main>
+
+  <!--
+    数据与逻辑分离：
+    1) data.js    = 可修改的数据 / 参数配置
+    2) app.js     = 渲染、24h 时间输入、交互、本地保存、打印逻辑
+    3) styles.css = 页面及打印样式
+
+    修改 data.js 的 meta.dayCount 即可切换 21 / 28 / 30 天等协议周期。
+    直接双击打开 index.html 即可使用，不需要本地服务器。
+  -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
